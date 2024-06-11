@@ -22,8 +22,8 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue';
 import { useGetData } from "@/composables/getData";
+import { computed, ref } from 'vue';
 
 const URLBD = process.env.VUE_APP_URL_DB
 
@@ -66,7 +66,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-size: 0.80rem;
-    background-color: aquamarine;
+    background-color: #3968BF;
     width: 100vw;
 }
 
@@ -81,7 +81,7 @@ body {
     }
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
